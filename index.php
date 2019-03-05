@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Ashiap</title>
-    <link rel="stylesheet" href="./Plugins/Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
     <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
-    <!-- <script src="./Plugins/Bootstrap/jquery.min.js"></script> -->
-    <script src="./Plugins/Bootstrap/popper.min.js"></script>
-    <script src="./Plugins/Bootstrap/bootstrap.min.js"></script>
+    <!-- <script src="jquery.min.js"></script> -->
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
     <style media="screen">
       .custom-bg {
-        background-image: url(./media/image/atta.png);
+        background-image: url(atta.png);
         background-position: center;
         height: 100%;
         width: 100%;
@@ -68,12 +68,12 @@
     <script type="text/javascript">
     $(document).ready(function() {
 
-      var ashiap1  = new Audio('./media/audio/Ashiap1.mp3');
-      var ashiap2 = new Audio('./media/audio/Ashiap2.mp3');
-      var ashiap3 = new Audio('./media/audio/Ashiap3.mp3');
-      var ashiap4 = new Audio('./media/audio/Ashiap4.mp3');
-      var ashiap5 = new Audio('./media/audio/Ashiap5.mp3');
-      var ashiap6 = new Audio('./media/audio/Ashiap6.mp3');
+      var ashiap1  = new Audio('Ashiap1.mp3');
+      var ashiap2 = new Audio('Ashiap2.mp3');
+      var ashiap3 = new Audio('Ashiap3.mp3');
+      var ashiap4 = new Audio('Ashiap4.mp3');
+      var ashiap5 = new Audio('Ashiap5.mp3');
+      var ashiap6 = new Audio('Ashiap6.mp3');
 
       $(".ashiap1").mousedown(function() {
         ashiap1.load();
